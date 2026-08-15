@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+mlruns/
+mlflow.db
+data/
+notebooks/
+models/zenml_model/
+models/zenml_smoke_test/

@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+evaluate
+accelerate
+scikit-learn
+pandas
+numpy
+mlflow
+optuna
+fastapi
+uvicorn[standard]
+prometheus-client
+huggingface_hub
+python-dotenv
+pymysql

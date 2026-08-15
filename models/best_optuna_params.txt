@@ -1,0 +1,7 @@
+best_trial=0
+best_f1=0.8260869565217391
+learning_rate=1.827226177606625e-05
+batch_size=4
+num_epochs=1
+weight_decay=0.015599452033620266
+warmup_ratio=0.011616722433639893

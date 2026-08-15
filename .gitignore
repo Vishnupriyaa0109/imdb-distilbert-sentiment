@@ -1,0 +1,48 @@
+# Python
+.venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Hugging Face cache
+.cache/
+.cache/
+
+# Data
+data/
+datasets/
+
+# Local model artifacts
+models/final_model/
+models/zenml_model/
+models/zenml_smoke_test/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
