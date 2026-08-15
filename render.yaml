@@ -9,3 +9,5 @@ services:
     envVars:
       - key: HF_TOKEN
         sync: false
+
+# INT8 ONNX deployment
