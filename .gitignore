@@ -46,3 +46,6 @@ dist/
 
 # Logs
 *.log
+
+# ONNX model artifacts
+models/onnx/
