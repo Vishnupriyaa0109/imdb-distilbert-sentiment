@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: imdb-sentiment-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: HF_TOKEN
+        sync: false
